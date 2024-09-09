@@ -1,0 +1,6 @@
+
+/* .light-shadow{
+    @apply shadow-[.4rem .4rem 1rem #ccc, -.4rem -.4rem 1rem #fff] ,
+    shadow-inner[.4rem .4rem 1rem #ccc inset, -.4rem -.4rem 1rem #fff inset'],
+    
+} */
