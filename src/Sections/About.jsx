@@ -19,15 +19,15 @@ const About = ({darkMode}) => {
                     My name is <span className='text-blue'>Charles Udenwoke</span>
                 </h2>
                 <p className={`text-start  mb-6 ${darkMode ? 'text-dark-text-color':'text-light-text-color'}`}>
-                I Am A Frontend Software Engineer With A Vast Array Of Knowledge In languages 
-                And Frameworks Used In Building, Designing
-                And Making Interractive
-                And Reponsive, Web Application Programs. 
-                My Objective Is Simply To Be The Best Software Engineer That I Can Be And To Contribute
-                To The Technology Industry All That I Know Can Do. 
-                I Am Dedicated To Perfecting My Craft By
-                Learning From More Seasoned Engineers, Remaining Humble, And Continuously Making Strides
-                To Learn All That I Can About Development.  
+                I am a Frontend Software Engineer with a vast array of knowledge in languages 
+                and frameworks used in building, designing
+                and making interractive
+                and reponsive, web application programs. 
+                My objective is simply to be the best Software Engineer that I can be and to contribute
+                to the technology industry all that I know can do. 
+                I am dedicated to perfecting my craft by
+                learning from more seasoned engineers, remaining humble, and continuously making strides
+                to learn all that I can about development.  
                 </p>
                 <div className='mt-[1rem]'>
                     <Button darkMode={darkMode} link='#home' label='Contact me'/>

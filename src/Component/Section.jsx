@@ -8,6 +8,8 @@ const Section = ({children, darkMode, openNavBar}) => {
           ${darkMode? 'bg-dark-mode':'bg-light-mode'}  ${darkMode? 'text-text4-black':'text-text4-white'}
           `}>
             {children}
+            
+          
 
        
         </section>

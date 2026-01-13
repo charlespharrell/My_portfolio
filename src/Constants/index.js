@@ -29,6 +29,22 @@ export const experiences =[
     }
 ]
 export const skills= [
+     {
+        img: react,
+        name: 'React',
+    },
+     {
+        img: javascript,
+        name: 'JavaScript',
+    },
+     {
+        img: typescript,
+        name: 'TypeScript',
+    },
+     {
+        img: tailwind,
+        name: 'Tailwind',
+    },
     {
         img: html,
         name: 'HTML',
@@ -44,22 +60,6 @@ export const skills= [
     {
         img: bootstrap,
         name: 'Bootstrap',
-    },
-    {
-        img: javascript,
-        name: 'JavaScript',
-    },
-    {
-        img: react,
-        name: 'React',
-    },
-    {
-        img: typescript,
-        name: 'TypeScript',
-    },
-    {
-        img: tailwind,
-        name: 'Tailwind',
     },
     {
         img: git,
@@ -98,15 +98,15 @@ export const projects =[
         href:'https://brainwave-7h9qdmh9q-charlespharrells-projects.vercel.app/'
 
     },
-    {
-        img: snakegame,
-        name: 'Snake Game',
-        highlight: 'This web game is just like the regular snake game we play on our phone where the snake moves to eat its food, and if it hits itself, its gameover',
-        stack: 'JavaScript, CSS',
-         href:'https://snake-game-sayg.vercel.app/'
+     {
+        img: country,
+        name: 'Search Country',
+        highlight: 'This is an web application where you can search for any country in the world with some other details about the country like its population, etc.',
+        stack: 'Next.Js, TailwindCSS',
+         href:'https://rest-countries-api-sigma-hazel.vercel.app/'
 
     },
-    {
+     {
         img: ecommerce,
         name: 'Ecommerce Shoes-website',
         highlight: 'A website where one can shop for shoes, and  add them to the cart. The shoes can be sorted out in different categories based on proces, colors, and even shoe type',
@@ -114,15 +114,14 @@ export const projects =[
          href:'https://shoe-website-theta.vercel.app/'
 
     },
-   
     {
-        img: country,
-        name: 'Search Country',
-        highlight: 'This is an web application where you can search for any country in the world with some other details about the country like its population, etc.',
-        stack: 'ReactJs, CSS',
-         href:'https://country-search-phi.vercel.app/'
+        img: snakegame,
+        name: 'Snake Game',
+        highlight: 'This web game is just like the regular snake game we play on our phone where the snake moves to eat its food, and if it hits itself, its gameover',
+        stack: 'JavaScript, CSS',
+         href:'https://snake-game-sayg.vercel.app/'
 
-    },
+    },   
     {
         img: nike,
         name: 'Nike Collections',
@@ -131,13 +130,6 @@ export const projects =[
          href:'https://nike-webpage-iota.vercel.app/'
 
     },
-    {
-        img: guessing,
-        name: 'Guessing game',
-        highlight: 'An application where you can guess between the numbers 1-50 and then the aplication tells you if you are right or wrong',
-        stack: 'JavaScript CSS',
-         href:'https://guess-dnumber.netlify.app/'
-
-    }
+  
 
 ]

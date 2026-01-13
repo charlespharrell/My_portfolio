@@ -4,6 +4,7 @@ import Button from '../Component/Button'
 import { icons } from '../Constants'
 
 
+
 const Home = ({darkMode}) => {
   return (
         <Section darkMode={darkMode} >
@@ -16,6 +17,7 @@ const Home = ({darkMode}) => {
                <p className='text-blue'>charlesudenwoke011@gmail.com</p>
 
                 <div className=' px-[2.5rem] py[1.5rem] my-[3rem]'>
+                 
                   <Button  darkMode={darkMode} label ='Download CV' 
                   link ='https://docs.google.com/document/d/1DFhpi2aHvOMTDRynhRaM0UysYLnnHTOq/edit'/>
                 </div>

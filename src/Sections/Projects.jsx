@@ -8,12 +8,14 @@ const Projects = ({darkMode,}) => {
   return (
    
     <Section darkMode={darkMode}>
-        <div id='project'>
+        <div id='project' >
             <Heading label='My Projects'/>
 
             <div className='grid grid-cols-auto-fix-minmax gap-[1.5rem]'>
             {
                 projects.map((pro)=>(
+                
+            
                     <div key={pro.img} className={`p-2  h-[16rem] flex flex-col rounded-2xl 
                                      ${darkMode? 'shadow-dark':'shadow-light'}
                                     relative group overflow-hidden justify-center text-center border-[1rem] 
