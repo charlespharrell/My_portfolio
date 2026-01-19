@@ -1,6 +1,7 @@
 import React from 'react'
 import {fblight} from '../assets/images'
 import { fbdark } from '../assets/images'
+import { myimage } from '../assets/images'
 import { navLinks } from '../Constants'
 import Hamburger from './Hamburger'
 import { useState } from 'react'
@@ -29,7 +30,7 @@ const NavBar = ({darkMode}) => {
 
                       <Hamburger openNavBar={openNavBar} darkMode={darkMode} toggleNavBar={toggleNavBar}/>
 
-            <img src={`${darkMode ? fbdark:fblight }`} alt=""  
+            <img src={myimage} alt=""  
                         className={`m-[.5rem] border-[1rem] border-solid border-transparent 
                          rounded-full h-[12rem] ${darkMode ? 'shadow-dark': 'shadow-light'} w-[12rem]`}
                        />

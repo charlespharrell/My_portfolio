@@ -1,6 +1,6 @@
 import { bootstrap, css, git, html, javascript, jquery, react, tailwind, typescript } from "../assets/images";
 import { FaFacebook, FaGithub, FaInstagram, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import { brainwave, nike, guessing, snakegame, ecommerce, country } from "../assets/images";
+import { brainwave, nike, form, snakegame, nextjs, ecommerce, country } from "../assets/images";
 
 export const navLinks = [
     {href: '#home', label: 'Home'},
@@ -29,6 +29,10 @@ export const experiences =[
     }
 ]
 export const skills= [
+      {
+        img: nextjs,
+        name: 'Next.Js',
+    },
      {
         img: react,
         name: 'React',
@@ -90,12 +94,21 @@ export const icons= [
 
 ]
 export const projects =[
+    
     {
         img: brainwave,
         name: 'Brainwave with AI',
         highlight: 'An application that enhances the power of chatting using Artificial Intelligence',
         stack: 'ReactJs, Vite, Tailwind',
         href:'https://brainwave-7h9qdmh9q-charlespharrells-projects.vercel.app/'
+
+    },
+     {
+        img: form,
+        name: 'Multi-step form',
+        highlight: 'A multi-step application form that allows one to fill out data and make selections for subscription packages',
+        stack: 'Next.Js, Tailwind',
+        href:'https://multi-step-forms.vercel.app/'
 
     },
      {

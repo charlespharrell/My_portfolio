@@ -10,15 +10,17 @@ import typescript from './typescript.png'
 import tailwind from './tailwindcss.png'
 import git from './git.png'
 
-
+import form from './multi-step-form.png'
 import brainwave from './brainwave.png'
 import country from './countryimg.png'
 import ecommerce from './ecommerceshoe.png'
 import guessing from './guessingimg.png'
 import nike from './nike.png'
 import snakegame from './snakegame.png'
+import nextjs from './nexttjs.png'
+import myimage from './myimage.png'
 
 export{
-    fblight, fbdark, bootstrap, css, html, javascript, git, jquery, react, typescript, tailwind,
-    brainwave, country, ecommerce, guessing, nike, snakegame
+    fblight, myimage, fbdark, nextjs, bootstrap, css, html, javascript, git, jquery, react, typescript, tailwind,
+    brainwave, country, ecommerce, guessing, nike, snakegame, form
 }
