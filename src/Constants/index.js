@@ -84,12 +84,12 @@ export const icons= [
       href: 'https://www.instagram.com/charlespharrell/'
      },
 
-    {src: FaTwitter,
+    {src: FaTwitter, 
       href: 'https://twitter.com/charlespharrell' 
      },
 
     { src: FaLinkedinIn,
-      href: 'https://www.linkedin.com/in/udenwoke-charles-238142188/'
+      href: 'https://www.linkedin.com/in/charles-udenwoke-238142188/'
       }
 
 ]
